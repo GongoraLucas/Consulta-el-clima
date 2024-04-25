@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: url("./assets/img/background.avif");
+
+}
+.colorFondo{
+    background-color: #00ffff;
+}
+.activeColorFondo{
+    background-color: black;
+}
+.activeRespuestas{
+    font-size: 1.5em;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    background-color:rgb(84, 84, 84);
+    border: 1px solid white ;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 10px 81px -23px rgba(243, 243, 243, 0.75);
+    color:aliceblue
+
+}
+.respuestas{
+    font-size: 1.5em;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    background-color:greenyellow;
+    border: 1px solid white ;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 10px 81px -23px rgba(0,0,0,0.75);
+}
+.container{
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    background-color:#00ffff;
+    border: 1px solid white ;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 10px 81px -23px rgba(0,0,0,0.75);
+}
+.activeContainer{
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    background-color:#0f1010;
+    border: 1px solid white ;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 10px 81px -23px rgba(200, 199, 199, 0.75);
+}
+.activeTitle{
+    color:aliceblue;
+    padding: 10px;
+    text-decoration: underline;
+}
+.title{
+    color:rgb(106, 106, 2);
+    padding: 10px;
+    text-decoration: underline;
+}
+.buscador{
+    margin-bottom: 10px;
+    height: 2em;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+
+}
+.boton{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+.boton:active{
+    background-color: black;
+    color: aliceblue;
+}
+
+.buscador:focus{
+    background-color: rgb(87, 85, 85);
+    color: aliceblue;
+}
+.modoBoton{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-image: url("/assets/img/botonNoche.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+}
+.modoBotonActivado{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-image: url("/assets/img/botonSol.webp") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+}
+
